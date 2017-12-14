@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jheank16oz.componentesdeandroid.activities.bottomnavigation.BottomNavigationNormalActivity">
+
+    <TextView
+        android:id="@+id/textureView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/grey_900"
+        android:padding="@dimen/padding_normal"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:padding="@dimen/padding_normal"
+        android:text="unchecked colors"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/color3"
+        app:layout_constraintEnd_toStartOf="@+id/color3"
+        app:layout_constraintTop_toTopOf="@+id/color3" />
+
+    <TextView
+        android:id="@+id/color3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/transparent_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color2" />
+
+    <TextView
+        android:id="@+id/color2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textAppearance="@style/Component.ItemTitle.Break"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        app:itemIconTint="@color/state_colors_icon_bottom_white"
+        app:itemTextColor="@color/state_colors_icon_bottom_white"
+        android:background="@color/purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/bottom_navigation" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:padding="@dimen/padding_normal"
+        android:text="Background"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/color2"
+        app:layout_constraintEnd_toStartOf="@+id/color"
+        app:layout_constraintTop_toTopOf="@+id/color" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="@dimen/padding_normal"
+        android:text="checked colors"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/color2"
+        app:layout_constraintEnd_toStartOf="@+id/color2"
+        app:layout_constraintTop_toTopOf="@+id/color2" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+

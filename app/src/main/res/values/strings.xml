@@ -3,6 +3,14 @@
     <string name="title_components">Componentes</string>
     <string name="title_info">Información</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bottom_navigation">Bottom Navigation</string>
+    <string name="normal">Normal</string>
+    <string name="cambio_de_colores">Cambio de colores</string>
+    <string name="comportamiento_en_listas">Comportamiento en listas</string>
+    <string name="store">Tiendas</string>
+    <string name="restaurants">Restaurantes</string>
+    <string name="map">Mapa</string>
+    <string name="bottom_navigation_normal">Bottom Navigation Normal</string>
 </resources>

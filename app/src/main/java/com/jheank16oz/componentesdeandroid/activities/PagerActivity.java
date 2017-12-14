@@ -1,16 +1,16 @@
-package com.jheank16oz.componentesdeandroid;
+package com.jheank16oz.componentesdeandroid.activities;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import com.jheank16oz.componentesdeandroid.R;
 import com.jheank16oz.componentesdeandroid.fragments.AboutFragment;
 import com.jheank16oz.componentesdeandroid.fragments.ComponentsFragment;
 
-public class PagerActivity extends AppCompatActivity {
+public class PagerActivity extends BaseActivity {
 
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener

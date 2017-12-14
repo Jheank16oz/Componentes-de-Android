@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding_normal"
+        android:paddingEnd="@dimen/padding_normal"
+        android:paddingStart="@dimen/padding_normal"
+        android:paddingTop="@dimen/padding_normal"
+        android:textSize="@dimen/button_text_size"
+        android:textAppearance="@style/SimpleTittle"
+        tools:text="Prueba"/>
+
+</LinearLayout>
